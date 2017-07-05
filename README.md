@@ -1,3 +1,3 @@
 # hal255.github.io
-[a link][1]: https://hal255.github.io/ "My Resume Web Page"
-[a link][2]: https://hal255.github.io/MyFirstFPS_Unity_WebGL/ "My First Unity 3D Game Project"
+[1]: My Resume Web Page https://hal255.github.io/
+[2]: My First Unity 3D Game Project https://hal255.github.io/MyFirstFPS_Unity_WebGL/

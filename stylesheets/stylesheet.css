@@ -103,11 +103,11 @@ header h2 {
 }
 
 a.button {
-  display: block;
+  display: inline-block;
   float: left;
-  width: 179px;
+  width: 200px;
   padding: 12px 8px 12px 8px;
-  margin-right: 14px;
+  /*margin-right: 14px;*/
   font-size: 15px;
   font-weight: bold;
   line-height: 25px;
@@ -131,6 +131,7 @@ a.button {
   -moz-border-radius: 30px;
   -webkit-border-radius: 30px;
 }
+
 a.button:hover {
   background: #fafafa; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
@@ -212,8 +213,27 @@ strong {
   font-weight: bold;
 }
 
+/*
 em {
   font-style: italic;
+  color: red;
+}
+*/
+em{
+	color:blue;
+	font-style:normal;
+	position:relative;
+	padding-left:.625rem
+}
+em::before{
+	position:absolute;
+	content:"";
+	width:4px;
+	height:4px;
+	background-color:blue;
+	left:.0625rem;
+	top:9px;
+	border-radius:50%
 }
 
 table {
@@ -326,9 +346,19 @@ footer a:hover {
   color: #444;
 }
 
+/* My scripts*/
+.myList{
+	margin-left: 50px;
+	position: relative;
+}
+.myEm{
+	font-weight: bold;
+}
+
+
 /* MISC */
 .clearfix:after {
-  display: block;
+  display: inline-block;
   height: 0;
   clear: both;
   visibility: hidden;
@@ -337,7 +367,7 @@ footer a:hover {
 
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
-.clearfix {display: block;}
+.clearfix {display: inline-block;}
 
 /* #Media Queries
 ================================================== */

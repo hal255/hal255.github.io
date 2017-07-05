@@ -220,17 +220,18 @@ em {
 }
 */
 em{
+	color:black;
 	font-style:normal;
 	font-weight:bold;
 	position:relative;
 	padding-left:.625rem
 }
 em::before{
+	background-color:black;
 	position:absolute;
 	content:"";
 	width:4px;
 	height:4px;
-	background-color:blue;
 	left:.0625rem;
 	top:9px;
 	border-radius:50%

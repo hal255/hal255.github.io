@@ -220,8 +220,8 @@ em {
 }
 */
 em{
-	color:blue;
 	font-style:normal;
+	font-weight:bold;
 	position:relative;
 	padding-left:.625rem
 }

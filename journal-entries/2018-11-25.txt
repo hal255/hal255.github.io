@@ -1,0 +1,27 @@
+2018-11-25: Game Jam, and researched some business strategies
+
+Topic:Game Jam
+
+From Nov 15 to today, I was working on a game jam (https://github.com/michellelynne/LTC_game_jam).
+The game is similar to https://www.youtube.com/watch?v=q-Q6gjULhds
+Our hosted game: https://e-a-n.github.io/pathLight-staging/
+
+My contributions had been in the following states: boot, load, and gameloop (scrolling map).
+I find I have a tendency to get too far ahead of others when I am "in the zone" and it can cause some issues.
+Some contributions were not fruitful, such as the testing suite using unit.js library. It was not in the direction we needed.
+Being relatively new to game development, my implementation were not in best practices, such as not having data driven architecure.
+I learned alot from this project, such as shifting from object oriented programming to data oriented programming.
+More importantly, I gained insights on the workflow of working on a game from people who work in Jam City (mobile developing studio).
+
+
+Topic:Business Strategies
+
+After reviewing which game engine to move forward with, I decided to go with Unity. I also plan on purchasing the Unity plus in FY2019 and experience the 25GB storage.
+I wanted to push for Godot and not pay any fees, but it wasn't "Python enough" for my taste, felt more of Javascript.
+For that reason alone, I felt Godot's API documentation was not as extensive as Unity. Perhaps, I'll revisit this another time.
+
+As for which platform to host the games, my choice of platforms are: itch.io, apple, android, gog, steam, and myself (maybe).
+I like itch.io for it's indie friendly business model so that will most likely be a priority.
+Hosting it myself is also an option that I have to build upon when I release enough games.
+Apple and Android, I plan to release low budget games first, thus it would only make more sense to release it as mobile.
+GOG and Steam.... maybe.
